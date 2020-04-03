@@ -1,8 +1,234 @@
+@font-face {
+    font-family: 'hastagirl_one_demoregular';
+    src: url('hastagirlonedemoregular-lzww-webfont.woff2') format('woff2'),
+         url('hastagirlonedemoregular-lzww-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
 header, footer {
   padding: 5%;
-  background-color: orange;
+  background-color: #8BDCD9;
+  font-family: 'Playfair Display', serif;
 }
 
 section {
   padding: 5%;
+}
+
+header {
+  background: url("/assets/tropical-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vw;
+}
+
+header img {
+  max-width: 60%;
+  padding-top: 10vw;
+}
+
+.bg2 {
+    color: #FFFFFF;
+    padding: 5%;
+    background-color: #8BDCD9;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.bg2 h3 {
+  letter-spacing: 5px;
+  font-size:1em;
+}
+.bg-img {
+  background-color: #64D7CF;
+  background: url("/assets/palms-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 20vw;
+  text-align: center
+  background-blend-mode: multiply;
+    opacity: 91;
+    background-color: rgba(100, 179, 215, 0.32);
+  color: white;
+  padding: 20% 10%;
+}
+
+.bg2 h2 {
+  font-family: 'Playfair Display', serif;
+      margin-top: 0;
+      font-style: italic;
+}
+
+.bg1 {
+  background-color: #40D1C7;
+  color: white;
+  padding:12vw;
+}
+.bg1 h2 {
+  margin-top: 4vw;
+  font-size:1em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.bg1 h3 {
+  font-family: 'hastagirl_one_demoregular', sans-serif;
+  font-size:4em;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+
+}
+.card {
+  background-color: #F6F3F2;
+  padding: 10%;
+  color: #58595B;
+  min-height:200px;
+  margin-bottom: 5vw;
+}
+
+h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  color: #B7E9E8;
+  text-decoration: none;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #58595B;
+    margin: 10% 0 20%;
+        line-height: 1.75em;
+        background-image: linear-gradient(to bottom, transparent 0, #DBEDEB 0);
+background-position: 0 .95em!important;
+background-repeat: no-repeat;
+width: fit-content;
+text-align: center;
+margin: 0 auto;
+  }
+
+.cards {
+  margin-top:6vw;
+  margin-bottom: 0vw;
+}
+.label {
+  background-color: #8BDCD9;
+width: fit-content;
+padding: 10px 20px;
+color: white;
+letter-spacing: 3px;
+text-align: center;
+position: relative;
+top: -45px;
+margin: 0 auto;
+font-size: .6em;
+text-transform: uppercase;
+}
+
+.card .link {
+  font-family: 'playfair display', serif;
+    font-style: italic;
+    color: #58595B;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.card:hover {
+  background-color: #f3f1f0;
+}
+
+.card:hover h4 {
+  background-image: linear-gradient(to bottom, transparent 0, #ffe0de 0);
+}
+
+nav ul {
+  list-style:none;
+  color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'open sans';
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+ul li a {
+  color: white;
+}
+
+li a:hover {
+  color: black;
+}
+
+@media (max-width: 720px) {
+  nav ul {
+    line-height: 2em;
+    text-align: left;
+  }
+  nav ul li {
+    display: block;
+    padding:0;
+  }
+}
+
+.bg-img h3 {
+  font-family: 'playfair display', serif;
+  font-style: italic;
+  font-size: 2em;
+  margin-bottom:3vw;
+}
+.bg-img h2 {
+  font-size:1em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+h3.decorative {
+  font-family: 'hastagirl_one_demoregular', sans-serif;
+  font-size:4em;
+  width: fit-content;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  margin: 0 auto;
+}
+
+.bg4 {
+  background-color: #00C4D4;
+  color: white;
+}
+
+button {
+  width: fit-content;
+padding: 10px 20px;
+color: white;
+letter-spacing: 3px;
+text-align: center;
+position: relative;
+top: -45px;
+margin: 60px auto 2vw;
+font-size: .6em;
+text-transform: uppercase;
+border-color: white;
+}
+
+button a {
+  color: #1DD0CF;
+}
+button:hover a{
+  color: black;
 }

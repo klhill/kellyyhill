@@ -39,7 +39,7 @@ section {
 }
 
 header {
-  background: url("/assets/tropical-background.png");
+  background: url("./assets/tropical-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 50vw;
@@ -63,7 +63,7 @@ header img {
 }
 .bg-img {
   background-color: #64D7CF;
-  background: url("/assets/palms-bg.png");
+  background: url("./assets/palms-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 20vw;

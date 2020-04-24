@@ -43,6 +43,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 50vw;
+  background-color: #40D1C7;
 }
 
 header img {
